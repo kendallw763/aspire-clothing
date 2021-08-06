@@ -1,0 +1,293 @@
+body {
+  background-color: black;
+}
+
+.section0 {
+  background-color: white;
+}
+
+.header1 {
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wrapper1 {
+  text-align: center;
+}
+
+.section1 {
+  padding-bottom: 287px;
+  margin-top: 30px;
+  padding-top: 75px;
+  background-color: white;
+}
+
+.section2 {
+  padding-bottom: 150px;
+  margin-top: 0px;
+  padding-top: 30px;
+  background-color: white;
+}
+
+.toppics {
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-top: 50px;
+}
+
+.mensactive {
+  width: 45%;
+}
+
+.womensactive {
+  width: 45%;
+  float: right;
+}
+
+.button1 {
+  margin-left: 25px;
+  margin-top: 25px;
+  height: 50px;
+  background-color: white;
+  color: black;
+  border-radius: 7px;
+}
+
+.button2 {
+  margin-left: 25px;
+  margin-top: 25px;
+  height: 50px;
+  float: right;
+  margin-right: 25px;
+  background-color: white;
+  color: black;
+  border-radius: 7px;
+}
+
+.shoebox1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding-top: 20px;
+}
+
+.shoeproduct1 {
+  width: 15%;
+}
+
+.shoeproduct1 .shoeproduct2 {
+  width: 15%;
+}
+
+.shoebox2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding-top: 450px;
+  padding-bottom: 450px;
+}
+
+.shoeproduct3 {
+  width: 15%;
+}
+
+.shoeproduct3 .shoeproduct4 {
+  width: 15%;
+}
+
+.sectionnan {
+  background-color: black;
+  padding-bottom: 150px;
+  padding-top: 255px;
+}
+
+.toph {
+  text-align: center;
+  color: white;
+  font-size: 100px;
+}
+
+.topp {
+  text-align: center;
+  color: white;
+  font-size: 35px;
+}
+
+.bottombtn {
+  text-align: center;
+  font-size: 60px;
+  border-radius: 7px;
+}
+
+.landcontain {
+  text-align: center;
+  padding: 100px;
+}
+
+.landpic {
+  width: 30%;
+  border: white solid 15px;
+}
+
+.card {
+  padding: 30px;
+  display: inline-block;
+  border-style: none;
+  margin-left: 5px;
+  text-align: center;
+  margin: 44px;
+}
+
+.card a {
+  text-decoration: none;
+  color: black;
+}
+
+.card-body button {
+  width: 150px;
+}
+
+button {
+  background-color: white;
+  color: black;
+  border-radius: 7px;
+  height: 50px;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+.tracksuite3 {
+  height: 20%;
+  display: inline-block;
+}
+
+.jacket3 {
+  height: 20%;
+  display: inline-block;
+}
+
+.bra {
+  height: 20%;
+  display: inline-block;
+}
+
+.hoodie {
+  height: 20%;
+  display: inline-block;
+}
+
+.tracksuite2 {
+  height: 20%;
+  display: inline-block;
+}
+
+.womansp1 {
+  height: 20%;
+  display: inline-block;
+}
+
+.womensj1 {
+  height: 20%;
+  display: inline-block;
+}
+
+.girlsts {
+  height: 20%;
+  display: inline-block;
+}
+
+.jacket1 {
+  height: 20%;
+  display: inline-block;
+}
+
+.hoodie2 {
+  height: 20%;
+  display: inline-block;
+}
+
+.boysts {
+  height: 20%;
+  display: inline-block;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: black;
+  padding-bottom: 200px;
+  padding: 25px;
+}
+
+footer li {
+  color: white;
+  list-style: none;
+}
+
+.rightc {
+  float: right;
+}
+
+@media screen and (max-width: 700px) {
+  .sectionnan {
+    padding-top: 150px;
+    padding-bottom: 50px;
+  }
+  .landpic {
+    display: none;
+    width: 60%;
+    border: white solid 15px;
+  }
+  .section1 {
+    display: none;
+    padding-bottom: 287px;
+    margin-top: 30px;
+    padding-top: 75px;
+    background-color: white;
+  }
+  .mensactive {
+    display: none;
+    width: 45%;
+  }
+  .womensactive {
+    display: none;
+    width: 45%;
+    float: right;
+  }
+  .button1 {
+    display: none;
+    margin-left: 25px;
+    margin-top: 25px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    border-radius: 7px;
+  }
+  .button2 {
+    display: none;
+    margin-left: 25px;
+    margin-top: 25px;
+    height: 50px;
+    float: right;
+    margin-right: 25px;
+    background-color: white;
+    color: black;
+    border-radius: 7px;
+  }
+}
+/*# sourceMappingURL=fig.css.map */
